@@ -67,7 +67,13 @@ namespace BigIP
         private void BigIP_DoubleClick(object sender, EventArgs e)
         {
             AboutBox about = new AboutBox();
-            about.Show();
+            about.ShowDialog();
+        }
+
+        private void Address_DoubleClick(object sender, EventArgs e)
+        {
+            AboutBox about = new AboutBox();
+            about.ShowDialog();
         }
     }
 }

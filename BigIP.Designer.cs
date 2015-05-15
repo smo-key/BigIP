@@ -42,6 +42,7 @@
             this.Address.TabIndex = 0;
             this.Address.Text = "Getting IP...";
             this.Address.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Address.DoubleClick += new System.EventHandler(this.Address_DoubleClick);
             // 
             // BigIP
             // 
