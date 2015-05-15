@@ -58,7 +58,10 @@
             this.Opacity = 0.7D;
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Big IP";
+            this.Activated += new System.EventHandler(this.OnActivated);
+            this.DoubleClick += new System.EventHandler(this.BigIP_DoubleClick);
             this.ResumeLayout(false);
 
         }
