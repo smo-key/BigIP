@@ -35,10 +35,10 @@
             // 
             this.Address.AutoSize = true;
             this.Address.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Address.Font = new System.Drawing.Font("Microsoft Sans Serif", 144F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Address.Font = new System.Drawing.Font("Microsoft Sans Serif", 190.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Address.Location = new System.Drawing.Point(0, 0);
             this.Address.Name = "Address";
-            this.Address.Size = new System.Drawing.Size(979, 272);
+            this.Address.Size = new System.Drawing.Size(1294, 359);
             this.Address.TabIndex = 0;
             this.Address.Text = "256.256";
             this.Address.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -60,8 +60,6 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Big IP";
-            this.Activated += new System.EventHandler(this.OnActivated);
-            this.Deactivate += new System.EventHandler(this.BigIP_Deactivate);
             this.DoubleClick += new System.EventHandler(this.BigIP_DoubleClick);
             this.ResumeLayout(false);
             this.PerformLayout();
